@@ -1,4 +1,7 @@
 import React from 'react';
+
+import {BiMenuAltRight} from 'react-icons/bi';
+
 import classes from './Header.module.scss';
 
 const Header = () => {
@@ -21,7 +24,9 @@ const Header = () => {
                 </ul>
                 <button>CTA Page</button>
             </nav>
-            
+            <div className={classes.header__content__toggle}>
+
+            </div>
   </header>
   );
 };
