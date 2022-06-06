@@ -8,3 +8,17 @@ $text: rgb(15,15,15);
 $text2: rgb(240,240,240);
 $primary: rgb(118, 105, 255);
 
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-1g: 32px;
+
+$header-height: 72px;
+
+$sm: 37.5em;
+$md: 48em;
+$ld: 64em;
+$xl: 75em;
+
+@mixin breakpoint($point) {
+
+}
