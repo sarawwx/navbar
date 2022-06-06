@@ -1,16 +1,4 @@
-@import "./variables.scss";
-
-*{
-    box-sizing: border-box;
+*, *::before, *::after {
     margin: 0;
-}
-
-body{
-    width: 100%;
-    font-family: $Poppins;
-    color: $dark;
-}
-
-#root{
-    height: 100%;
+    box-sizing: border-box;
 }
