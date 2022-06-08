@@ -1,10 +1,14 @@
-*, *::before, *::after {
+@import "./variables.scss";
+
+*,
+*::before,
+*::after {
     margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     font-family: $ubuntu-font;
     color: $text;
     height: 200vh;
