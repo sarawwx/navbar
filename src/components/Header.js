@@ -22,7 +22,10 @@ const Header = () => {
                     </a>
                 </nav>
             </div>
-            <div></div>
+            <div>
+                <div className={styles.header__button__container}></div>
+                <button className={styles.header__button__toggler}></button>
+            </div>
         </div>
     </div>
   )
