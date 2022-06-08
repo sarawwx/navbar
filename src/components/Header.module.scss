@@ -67,4 +67,20 @@
             color: $primary;
         }
     }
+
+    @include breakpoint(md) {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: initial;
+        width: auto;
+        padding: 0;
+
+        &__item {
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }
