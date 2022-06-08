@@ -1,5 +1,21 @@
 @import './../styles/variables.scss';
 
-.test{
-    background: purple;
+.header {
+    height: $header-height;
+    background: $bg2;
+    color: $text2;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 1px 5px $primary;
+
+    &__content {
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 0 16px;
+        @include breakpoint(md){
+            padding: 0 32px;
+        }
+        transition: .3s ease padding;
+    }
 }
